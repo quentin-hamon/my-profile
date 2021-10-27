@@ -1,0 +1,56 @@
+div {
+	text-align: center;
+}
+body{
+	color: #30475E;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+	color: #086972;
+	text-align: center;
+}
+a{text-decoration: none;
+color:#086972;
+font-family: 'Ubuntu', sans-serif;}
+a:hover{
+	color: #17B978;}
+
+
+
+
+
+
+.container{
+width: 1200px;
+margin: 40px auto;
+}
+
+@media (max-width: 760px) {.container{width: 600px}}
+@media (max-width: 500px) {.container{width: 400px}}
+
+
+
+.card-darkgreen{
+background-color: #17B978;
+padding: 40px;
+box-shadow:0px 10px 30px rgba(0, 0, 0, 1.0);
+border-radius: 40px;
+margin: 30px 0px;
+text-align: center;
+}
+
+.card-lightgreen{
+background-color: #A7FF83;
+padding: 35px;
+box-shadow:0px 10px 30px rgba(0, 0, 0, 1.0);
+border-radius: 40px;
+margin: 30px 0px;
+text-align: center;
+}
+
+.img-circle{
+	border-radius:180px;
+}
